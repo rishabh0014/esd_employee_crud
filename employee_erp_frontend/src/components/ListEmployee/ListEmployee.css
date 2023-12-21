@@ -1,0 +1,16 @@
+.profile_photo {
+    position: relative;
+}
+
+.profile_photo img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.profile_photo::after {
+    content: "";
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+}
